@@ -1,0 +1,19 @@
+
+=========================================================================================================================
+Code     | Name            | Stock  | Cov(d)   | Exp(d)     | Ess   | Condition                    | Priority
+=========================================================================================================================
+MED03    | Insulin         | 60     | 5.00     | 30         | 3     | Critical Condition           | 90      
+MED01    | Oral Saline     | 120    | 3.43     | 45         | 3     | Critical Condition           | 80      
+MED04    | Amoxicillin     | 200    | 8.00     | 20         | 3     | Expiry Attention             | 80      
+MED02    | Paracetamol     | 300    | 7.50     | 120        | 2     | Sufficient Stock             | 50      
+MED05    | Antacid         | 250    | 13.89    | 15         | 1     | Expiry Attention             | 50      
+MED06    | Cetirizine      | 180    | 12.00    | 90         | 1     | Sufficient Stock             | 30      
+=========================================================================================================================
+
+--- Summary ---
+Total medicines analysed:              6
+Number requiring reorder:              2
+Number requiring urgent attention:     2
+Number having expiry concern:          2
+Medicine requiring highest priority:   MED03 (Insulin)
+---------------
